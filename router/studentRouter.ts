@@ -11,4 +11,4 @@ router.route('/check-recordbyScore').get(getRecordbyScore)
 router.route('/update-record').patch(updateRecord)
 router.route('/delete-record').patch(deleteRecord)
 
-export default router
+export default router;
